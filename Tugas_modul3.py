@@ -1,4 +1,4 @@
-print("berikut adalah luas kurva f(x) = x^2 + 2x")
+print("berikut adalah luas kurva f(x) = x^2 + 2x (batas a=1 dan b=3)")
 n=int(input("Masukkan nilai n :"))
 a=1
 b=3
