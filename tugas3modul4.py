@@ -25,10 +25,8 @@ for i in range (1,n+1):
         else:
              print("angka yang anda masukkan tidak termasuk ke dalam rentang nilai")
     rata_rata=(wawancara+tulis+mengajar)/3
-    yes="LULUS"
-    no="TIDAK LULUS"
     if rata_rata >= 80:
-        print(f"Nama :{nama}|Mata Kuliah :{matkul}|Rata-Rata :{"%.1f" %(rata_rata)}|Prediket :{yes}")
+        print(f"Nama :{nama}|Mata Kuliah :{matkul}|Rata-Rata :{"%.1f" %(rata_rata)}|Prediket :LULUS")
     else:
-        print(f"Nama :{nama}|Mata Kuliah :{matkul}|Rata-Rata :{"%.1f" %(rata_rata)}|Prediket :{no}")
+        print(f"Nama :{nama}|Mata Kuliah :{matkul}|Rata-Rata :{"%.1f" %(rata_rata)}|Prediket :TIDAK LULUS")
     print("")
