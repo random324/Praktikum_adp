@@ -1,6 +1,6 @@
 n=int(input("masikkan jumlah pendaftar :"))
 for i in range (1,n+1):
-    print(f"{i} ----------------------------------------------------------------------------------->")
+    print(f"data pendaftar ke-{i} ---------------------------------------------------------------------->")
     nama=input("nama :")
     matkul=input("matkul :")
     a=0
@@ -10,7 +10,6 @@ for i in range (1,n+1):
             a+=1
         else:
              print("angka yang anda masukkan tidak termasuk ke dalam rentang nilai")
-        continue
     b=0
     while b<=0:
         tulis=int(input("Masukkan nilai tulus :"))
@@ -18,7 +17,6 @@ for i in range (1,n+1):
             b+=1
         else:
              print("angka yang anda masukkan tidak termasuk ke dalam rentang nilai")
-        continue
     c=0
     while c<=0:
         mengajar=int(input("Masukkan nilai mengajar :"))
@@ -26,7 +24,6 @@ for i in range (1,n+1):
             c+=1
         else:
              print("angka yang anda masukkan tidak termasuk ke dalam rentang nilai")
-        continue
     rata_rata=(wawancara+tulis+mengajar)/3
     yes="LULUS"
     no="TIDAK LULUS"
@@ -34,3 +31,4 @@ for i in range (1,n+1):
         print(f"Nama :{nama}|Mata Kuliah :{matkul}|Rata-Rata :{"%.1f" %(rata_rata)}|Prediket :{yes}")
     else:
         print(f"Nama :{nama}|Mata Kuliah :{matkul}|Rata-Rata :{"%.1f" %(rata_rata)}|Prediket :{no}")
+    print("")
